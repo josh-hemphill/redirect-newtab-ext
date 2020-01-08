@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./tab-script.js"></script>
+    <style>
+      body {
+        background-color: #202124;
+        margin: 0px;
+      }
+      .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin: auto;
+        animation: spin 2s linear infinite;
+      }
+      button {
+        background-color: #361bce;
+        color: #f0f0f0;
+        width: 100%;
+        border: none;
+        font-size: larger;
+        padding: 10px 10px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: auto; width: 200px; margin-top: 100px;">
+      <div id="loader" style="display: block; text-align: center;">
+        <h2 style="color:white">LOADING</h2>
+        <br />
+        <div class="loader"></div>
+      </div>
+      <div id="failed" style="display: none; text-align: center;">
+        <h2 style="color:rgb(141, 0, 0)">REDIRECT FAILED</h2>
+        <br />
+        <button id="redirecter">Click here to continue</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "New Tab Redirect",
+  "description": "Redirects your 'new tab' to an external website. (Default: Google Keep)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "New-Tab Redirect",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "tab-redirect.html"
+  }
+}

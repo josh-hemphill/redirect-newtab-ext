@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .centertext {
+        text-align: center;
+        vertical-align: middle;
+      }
+      .headfoot {
+        padding-top: 8px;
+        height: 24px;
+        color: #f0f0f0;
+        background-color: #303135;
+        flex-shrink: 0;
+      }
+      footer.foot > h6 {
+        margin: 0px;
+      }
+      header.headfoot {
+        padding-top: 2px;
+        padding-bottom: 4px;
+      }
+      footer.foot > h6 > a {
+        text-decoration: none;
+        color: white;
+      }
+      .head {
+        font-size: larger;
+      }
+      body {
+        background-color: #202124;
+        margin: 0px;
+      }
+      form {
+        padding: 0px 10px;
+      }
+      form > * {
+        height: 30px;
+        border: none;
+        font-size: larger;
+        margin: 6px 0px;
+      }
+      form > label {
+        color: #f0f0f0;
+      }
+      form > button {
+        background-color: #361bce;
+        color: #f0f0f0;
+        width: 100%;
+      }
+      input#url {
+        padding: 0px 6px;
+        background-color: #f1f1f1;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+      }
+      main {
+        flex: 1 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="head headfoot centertext">
+        New Tab Control
+      </header>
+      <main class="content">
+        <form action="blank" id="preventDefault">
+          <label for="url">URL: <span id="curentUrl">Blank</span></label>
+          <input type="url" placeholder="New Url" name="url" id="url" />
+          <button type="submit" id="updateUrl">Update</button>
+        </form>
+      </main>
+      <footer class="foot headfoot centertext">
+        <h6>
+          <a href="https://joshuahemphill.com" target="_blank">
+            Joshua Hemphill &copy; 2019
+          </a>
+        </h6>
+      </footer>
+    </div>
+  </body>
+  <script src="./pop-script.js"></script>
+</html>
