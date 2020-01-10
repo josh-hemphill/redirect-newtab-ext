@@ -20,4 +20,9 @@ document.getElementById('updateUrl').addEventListener('click', function() {
 });
 chrome.storage.sync.get('url', function ({url}) {
     updateBlank(url);
+    if(!url) {
+        chrome.storage.sync.set({url:'keep.google.com'},function(){
+            console.log('initialized url as keep.google.com')
+        })
+    }
 });
