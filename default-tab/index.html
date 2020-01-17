@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Tab Placeholder</title>
+    <script src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #time {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        position: absolute;
+        top: 20vh;
+        width: 99%;
+        font-size: 10vmax;
+        text-shadow: 2px 0px 4px rgba(255, 255, 255, 0.568),
+          -2px 0px 4px rgba(255, 255, 255, 0.568),
+          0px 2px 4px rgba(255, 255, 255, 0.568),
+          0px -2px 4px rgba(255, 255, 255, 0.568);
+      }
+      body#body {
+        background-size: cover;
+        background-color: #202124;
+      }
+      h5#notice a,
+      h5#notice a:active,
+      h5#notice a:visited {
+        color: black;
+        text-decoration: none;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+        position: fixed;
+        bottom: 4px;
+        right: 10px;
+        text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.253),
+          -0.5px -0.5px rgba(255, 255, 255, 0.363);
+        text-transform: uppercase;
+      }
+      h3#notice {
+        color: black;
+        text-decoration: none;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+        position: fixed;
+        margin: 0px;
+        top: 10px;
+        right: 10px;
+        text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.253),
+          -0.5px -0.5px rgba(255, 255, 255, 0.363);
+      }
+      .centertext {
+        text-align: center;
+        vertical-align: middle;
+      }
+      .headfoot {
+        padding-top: 8px;
+        height: 24px;
+        color: #f0f0f0;
+        background-color: #303135;
+        flex-shrink: 0;
+      }
+      div.foot > h6 {
+        margin: 0px;
+      }
+      div.headfoot {
+        padding-top: 2px;
+        padding-bottom: 4px;
+      }
+      div.foot > h6 > a {
+        text-decoration: none;
+        color: white;
+      }
+      .head {
+        font-size: larger;
+      }
+      body {
+        background-color: #202124;
+        margin: 0px;
+      }
+      form {
+        padding: 0px 10px;
+      }
+      form > * {
+        height: 30px;
+        border: none;
+        font-size: larger;
+        margin: 6px 0px;
+      }
+      form > label {
+        color: #f0f0f0;
+      }
+      form > button {
+        background-color: #361bce;
+        color: #f0f0f0;
+        width: 100%;
+      }
+      input#url {
+        background-color: #f1f1f1;
+        width: 100%;
+      }
+      .container {
+        position: fixed;
+        top: 3px;
+        right: 2px;
+        display: flex;
+        flex-direction: column;
+        background-color: #202124;
+        max-width: 300px;
+      }
+      div#main {
+        flex: 1 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      #outUrl {
+        max-width: 248px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div class="container">
+      <div class="head headfoot centertext">
+        New Tab Control
+      </div>
+      <div id="main" class="content">
+        <form action="blank" id="preventDefault">
+          <label id="outUrl" for="url"
+            >URL: <span id="curentUrl">Blank</span></label
+          >
+          <br />
+          <input type="url" placeholder="&nbsp;New Url" name="url" id="url" />
+          <button type="submit" id="updateUrl">Update</button>
+        </form>
+      </div>
+      <div class="foot headfoot centertext">
+        <h6>
+          <a href="https://joshuahemphill.com" target="_blank">
+            Joshua Hemphill &copy; 2019
+          </a>
+        </h6>
+      </div>
+    </div>
+    <h1 id="time">
+      00:00 M
+    </h1>
+    <h5 id="notice">
+      <a href="https://picsum.photos/">Random Daily Image from picsum.photos</a>
+    </h5>
+  </body>
+  <script src="../popup/index.js"></script>
+</html>

@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "New Tab Redirect",
-  "description": "Redirects your 'new tab' to an external website. (Default: Google Keep)",
+  "description": "Redirects your 'new tab' to an external website.",
   "version": "1.0",
 
   "browser_action": {
@@ -15,12 +15,11 @@
       "128": "images/icon128.png"
     },
     "default_title": "New-Tab Redirect",
-    "default_popup": "popup.html"
+    "default_popup": "popup/index.html"
   },
 
   "permissions": ["storage"],
-
   "chrome_url_overrides": {
-    "newtab": "tab-redirect.html"
+    "newtab": "tab-redirect/index.html"
   }
 }

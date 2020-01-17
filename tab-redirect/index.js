@@ -1,5 +1,6 @@
 function redirect(url) {
-    window.location.replace(`https://${url}`);
+    if (!url.includes('://')) url = 'https://' + url;
+    chrome.tabs.update(null,{url});
 }
 let timer = setTimeout( function() {
         document.getElementById('loader').style.display = 'none';
@@ -10,9 +11,9 @@ chrome.storage.sync.get('url', function({url}) {
     if(url) {
         redirect(url);
     } else {
-        chrome.storage.sync.set({url:'keep.google.com'}, function () {
-            console.log('initialized url as keep.google.com');
-            window.location.replace('https://keep.google.com');
+        chrome.storage.sync.set({url:chrome.runtime.getURL('../default-tab/index.html')}, function () {
+            console.log('initialized url as Default');
+            chrome.tabs.update(null,{url:chrome.runtime.getURL('../default-tab/index.html')});
         })
     }
 
