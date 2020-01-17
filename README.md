@@ -1,6 +1,9 @@
 # redirect-newtab-ext
 
-Browser Extension to redirect the 'New Tab' to an external site of your choosing.
+A basic extension to redirect the 'New Tab' to an external site of your choosing.
+Make sure you keep seeing your notes or important info when you're browsing.
+
+Minimal; no background scripts or unnecessary permissions.
 
 ## Code Description
 
