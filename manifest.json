@@ -3,7 +3,8 @@
 
   "name": "New Tab Redirect",
   "description": "Redirects your 'new tab' to an external website.",
-  "version": "1.0",
+  "version": "1.1",
+  "author": "Joshua Hemphill",
 
   "browser_action": {
     "default_icon": {
@@ -17,7 +18,8 @@
     "default_title": "New-Tab Redirect",
     "default_popup": "popup/index.html"
   },
-
+  "offline_enabled": false,
+  "short_name": "Tab Redirect",
   "permissions": ["storage"],
   "chrome_url_overrides": {
     "newtab": "tab-redirect/index.html"

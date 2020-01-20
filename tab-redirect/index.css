@@ -1,0 +1,127 @@
+#time {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 20vh;
+  width: 99%;
+  font-size: 10vmax;
+  text-shadow: 2px 0px 4px rgba(255, 255, 255, 0.568),
+    -2px 0px 4px rgba(255, 255, 255, 0.568),
+    0px 2px 4px rgba(255, 255, 255, 0.568),
+    0px -2px 4px rgba(255, 255, 255, 0.568);
+}
+body#fullbody {
+  background-size: cover;
+  background-color: #202124;
+}
+h5#notice a,
+h5#notice a:active,
+h5#notice a:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  bottom: 4px;
+  right: 10px;
+  text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.253),
+    -0.5px -0.5px rgba(255, 255, 255, 0.363);
+  text-transform: uppercase;
+}
+h3#notice {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  margin: 0px;
+  top: 10px;
+  right: 10px;
+  text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.253),
+    -0.5px -0.5px rgba(255, 255, 255, 0.363);
+}
+.centertext {
+  text-align: center;
+  vertical-align: middle;
+}
+.headfoot {
+  padding-top: 8px;
+  height: 24px;
+  color: #f0f0f0;
+  background-color: #303135;
+  flex-shrink: 0;
+}
+div.foot > h6 {
+  margin: 0px;
+}
+div.headfoot {
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+div.foot > h6 > a {
+  text-decoration: none;
+  color: white;
+}
+.head {
+  font-size: larger;
+}
+body {
+  background-color: #202124;
+  margin: 0px;
+}
+form {
+  padding: 0px 10px;
+}
+form > * {
+  height: 30px;
+  border: none;
+  font-size: larger;
+  margin: 6px 0px;
+}
+form > label {
+  color: #f0f0f0;
+}
+form > button {
+  background-color: #361bce;
+  color: #f0f0f0;
+  width: 100%;
+}
+input#url {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+.container {
+  position: fixed;
+  top: 40px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #202124;
+  max-width: 300px;
+  z-index: 100;
+}
+div#main {
+  flex: 1 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#outUrl {
+  max-width: 248px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: #202124;
+  box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.514);
+}
+#toggleControl {
+  background-color: #202124;
+  border: none;
+  position: absolute;
+  right: 0px;
+  margin: 3px;
+}
