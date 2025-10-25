@@ -3,11 +3,44 @@ name: CI
 on:
   push:
     branches:
-      - main
-
+      - dev
+      - dev-next
+      - next
+      - beta
+      - alpha
+      - "*.x"
+    paths:
+      - "**.ts"
+      - ".github/workflows/**.yml"
+      - ".github/actions/**.yml"
+      - "src/**"
+      - "test/**"
+      - "*.json"
+      - "*.yaml"
   pull_request:
-    branches:
-      - main
+    paths:
+      - "**.ts"
+      - ".github/workflows/**.yml"
+      - ".github/actions/**.yml"
+      - "src/**"
+      - "test/**"
+      - "*.json"
+      - "*.yaml"
+    types:
+      - opened
+      - synchronize
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      release:
+        type: boolean
+        default: false
+permissions:
+  pull-requests: write
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
