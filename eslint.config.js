@@ -1,5 +1,5 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import antfu from '@antfu/eslint-config';
 
 export default antfu(
 	{
@@ -84,35 +84,51 @@ export default antfu(
 			},
 		},
 
-	}, {
-	files: [
-		'*.ts',
-		'*.tsx',
-		'*.vue',
-	],
-	rules: {
-		'no-console': 'warn',
-		'no-debugger': 'warn',
-		'strict': [
-			'error',
-			'global',
-		],
-		'eqeqeq': 'warn',
-		'no-unneeded-ternary': [
-			'warn',
-		],
-		'no-unused-vars': [
-			'warn',
-		],
-		'ts/ban-ts-comment': 'warn',
-		'import/extensions': [
-			'warn',
-			'ignorePackages',
-			{
-				vue: 'never',
-			},
-		],
-		'import/no-named-default': 'off',
 	},
-},
-)
+	{
+		files: [
+			'*.ts',
+			'*.tsx',
+			'*.vue',
+		],
+		rules: {
+			'no-console': 'warn',
+			'no-debugger': 'warn',
+			'strict': [
+				'error',
+				'global',
+			],
+			'eqeqeq': 'warn',
+			'no-unneeded-ternary': [
+				'warn',
+			],
+			'no-unused-vars': [
+				'warn',
+			],
+			'ts/ban-ts-comment': 'warn',
+			'import/extensions': [
+				'warn',
+				'ignorePackages',
+				{
+					vue: 'never',
+				},
+			],
+			'import/no-named-default': 'off',
+		},
+	},
+	{
+		files: [
+			'scripts/**/*.ts',
+		],
+		rules: {
+			'no-console': 'off',
+			'ts/no-unsafe-assignment': 'off',
+			'ts/no-unsafe-call': 'off',
+			'ts/no-unsafe-member-access': 'off',
+			'ts/no-unsafe-return': 'off',
+			'ts/no-unsafe-argument': 'off',
+			'ts/no-unsafe-enum-comparison': 'off',
+			'ts/no-unsafe-type-assertion': 'off',
+		},
+	},
+);

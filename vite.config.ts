@@ -198,7 +198,7 @@ export default defineConfig({
 		beastiesOptions: false,
 
 		async onFinished() {
-			await import('./manifest-writer.ts');
+			await import('./scripts/manifest-writer.ts');
 		},
 	},
 

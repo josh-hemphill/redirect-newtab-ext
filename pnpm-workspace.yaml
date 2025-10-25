@@ -1,9 +1,5 @@
 packages: []
 
-overrides:
-  vite: catalog:build
-  vue-tsc: catalog:dev
-
 catalogs:
   build:
     '@crxjs/vite-plugin': ^2.2.1
@@ -29,6 +25,8 @@ catalogs:
     '@antfu/eslint-config': ^6.0.0
     '@vue-macros/volar': 3.1.1
     '@vue/test-utils': ^2.4.6
+    bumpp: ^10.3.1
+    changelogithub: ^13.16.0
     cross-env: ^10.1.0
     cypress: ^15.5.0
     cypress-vite: ^1.8.0
@@ -68,6 +66,10 @@ onlyBuiltDependencies:
   - esbuild
   - oxc-resolver
   - unrs-resolver
+
+overrides:
+  vite: catalog:build
+  vue-tsc: catalog:dev
 
 packageExtensions:
   '@crxjs/vite-plugin':

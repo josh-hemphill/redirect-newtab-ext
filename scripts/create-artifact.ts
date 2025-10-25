@@ -1,5 +1,5 @@
 import { $, fs } from 'zx';
-import * as PackageJson from './package.json' with { type: 'json' };
+import * as PackageJson from '../package.json' with { type: 'json' };
 
 await Promise.all([
 	fs.copyFile('./LICENSE', './dist/LICENSE'),

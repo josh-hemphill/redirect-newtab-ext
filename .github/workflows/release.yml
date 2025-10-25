@@ -27,21 +27,22 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup and cache dependencies
-        uses: ./.github/actions/setup-and-cache
-
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
           name: build-artifacts
           path: .
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+
+      - name: Install pnpm dependencies
+        shell: bash
+        run: pnpm install --frozen-lockfile --filter .
+
       - name: Changelog
-        run: pnpm dlx changelogithub --draft
+        run: pnpm dlx changelogithub --draft --assets 'newtab-redirect-*.zip'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish npm
-        run: pnpm publish-ci ${{ github.ref_name }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

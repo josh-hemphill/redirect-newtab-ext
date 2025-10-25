@@ -3,7 +3,7 @@ import path from 'node:path';
 import { env } from 'node:process';
 import url from 'node:url';
 import { defineManifest } from '@crxjs/vite-plugin';
-import * as PackageJson from './package.json';
+import * as PackageJson from '../package.json';
 
 const __dirname = path.dirname(url.fileURLToPath(new URL(import.meta.url)));
 
@@ -22,7 +22,7 @@ const manifest = defineManifest({
 		env.mode === 'staging'
 			? `[INTERNAL] ${baseName}`
 			: baseName,
-	description: description,
+	description,
 	default_locale: 'en',
 	author: { email: PackageJson.author.email },
 	homepage_url: PackageJson.homepage,
