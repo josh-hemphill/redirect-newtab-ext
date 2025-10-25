@@ -20,7 +20,7 @@
 		"redirect"
 	],
 	"scripts": {
-		"build": "cross-env NODE_ENV=production vite-ssg build && tsx create-artifact.ts",
+		"build": "cross-env NODE_ENV=production vite-ssg build && tsx scripts/create-artifact.ts",
 		"build:dev": "cross-env NODE_ENV=development vite-ssg build",
 		"dev": "vite --port 3333 --open",
 		"release": "tsx scripts/release.ts",

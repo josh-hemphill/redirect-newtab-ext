@@ -5,7 +5,7 @@ import url from 'node:url';
 import { defineManifest } from '@crxjs/vite-plugin';
 import * as PackageJson from '../package.json';
 
-const __dirname = path.dirname(url.fileURLToPath(new URL(import.meta.url)));
+const __dirname = path.dirname(path.join(url.fileURLToPath(new URL(import.meta.url)), '..'));
 
 const [major, minor, patch, label = '0'] = PackageJson.version
 	// can only contain digits, dots, or dash
