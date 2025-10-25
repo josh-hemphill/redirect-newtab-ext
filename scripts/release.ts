@@ -22,7 +22,7 @@ try {
 	await $`git commit -m "ci: update changelog"`;
 
 	const latestTagExists = await $`git tag -l latest`.nothrow();
-	if (latestTagExists.exitCode === 0) {
+	if (latestTagExists.exitCode === 1) {
 		await $`git tag -d latest`;
 	}
 	await $`git tag latest`;
