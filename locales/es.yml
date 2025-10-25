@@ -1,0 +1,50 @@
+button:
+  clear: Limpiar
+  close: Cerrar
+  go: IR
+  next: Siguiente
+  previous: Anterior
+  settings: Abrir Configuración
+  toggle_dark: Alternar modo oscuro
+  toggle_langs: Cambiar idiomas
+info:
+  description: Redirigir a una nueva pestaña o ventana
+  explain_settings: Configure su primera redirección de URL aquí
+  random_daily_image: Imagen diaria aleatoria de {picsumDomain}
+  settings: Configuración
+  title: Redirección de Nueva Pestaña
+  tool_help: Widget disponible
+  tool_help_description: Acceda fácilmente a sus opciones de nueva pestaña en cualquier momento desde el widget de la extensión.
+  tool_help_description_icon: Este icono debería estar disponible arriba para listar widgets disponibles
+  tool_help_description_pin: Y si lo desea, fíjelo para que sea aún más fácil de acceder
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Ver la página del proyecto en GitHub
+pages:
+  newtab: Nueva Pestaña
+  popup: Popup
+redirect:
+  clear_history: Limpiar Historial
+  current_url: URL Actual
+  empty_for_default: Nueva Pestaña por Defecto
+  enabled: Habilitado
+  next: Siguiente
+  previous: Anterior

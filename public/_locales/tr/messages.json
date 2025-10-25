@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Yeni Sekme Yönlendirmesi"
+	},
+	"extensionDescription": {
+		"message": "Tarayıcının yeni sekmesini özel bir URL'ye yönlendirir"
+	}
+}

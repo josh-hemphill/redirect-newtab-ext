@@ -1,0 +1,50 @@
+button:
+  clear: Xóa
+  close: Đóng
+  go: ĐI
+  next: Tiếp theo
+  previous: Trước đó
+  settings: Mở Cài đặt
+  toggle_dark: Chuyển đổi chế độ tối
+  toggle_langs: Thay đổi ngôn ngữ
+info:
+  description: Chuyển hướng đến tab hoặc cửa sổ mới
+  explain_settings: Đặt chuyển hướng URL đầu tiên của bạn ở đây
+  random_daily_image: Hình ảnh hàng ngày ngẫu nhiên từ {picsumDomain}
+  settings: Cài đặt
+  title: Chuyển hướng Tab Mới
+  tool_help: Widget có sẵn
+  tool_help_description: Dễ dàng truy cập các tùy chọn tab mới của bạn bất cứ lúc nào từ widget của tiện ích mở rộng.
+  tool_help_description_icon: Biểu tượng này sẽ có sẵn ở trên để liệt kê các widget có sẵn
+  tool_help_description_pin: Và nếu bạn muốn, ghim nó để dễ dàng truy cập hơn
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Xem trang dự án trên GitHub
+pages:
+  newtab: Tab Mới
+  popup: Popup
+redirect:
+  clear_history: Xóa Lịch sử
+  current_url: URL Hiện tại
+  empty_for_default: Tab Mới Mặc định
+  enabled: Đã bật
+  next: Tiếp theo
+  previous: Trước đó

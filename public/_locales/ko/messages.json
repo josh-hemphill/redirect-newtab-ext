@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "새 탭 리디렉션"
+	},
+	"extensionDescription": {
+		"message": "브라우저의 새 탭을 사용자 정의 URL로 리디렉션합니다"
+	}
+}

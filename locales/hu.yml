@@ -1,0 +1,52 @@
+button:
+  clear: Törlés
+  close: Bezárás
+  go: MENJ
+  next: Következő
+  previous: Előző
+  settings: Beállítások megnyitása
+  toggle_dark: Sötét mód váltás
+  toggle_langs: Nyelvek váltása
+info:
+  description: Átirányítás új lapra vagy ablakra
+  explain_settings: Itt állítsa be az első URL átirányítást
+  random_daily_image: Véletlenszerű napi kép a {picsumDomain}-tól
+  settings: Beállítások
+  title: Új lap átirányítás
+  tool_help: Widget elérhető
+  tool_help_description: Könnyen hozzáférhet új lap opcióihoz bármikor a bővítmény widget-jéből.
+  tool_help_description_icon: Ez az ikon fent elérhető kell legyen a rendelkezésre álló widget-ek listázásához
+  tool_help_description_pin: És ha szeretné, rögzítse, hogy még könnyebben hozzáférhessen
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ka: ქართული
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  uz: O'zbekcha
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: A projekt oldal megtekintése a GitHub-on
+pages:
+  newtab: Új lap
+  popup: Felugró ablak
+redirect:
+  clear_history: Előzmények törlése
+  current_url: Jelenlegi URL
+  empty_for_default: Alapértelmezett új lap
+  enabled: Engedélyezve
+  next: Következő
+  previous: Előző

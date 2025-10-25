@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Редирект Новой Вкладки"
+	},
+	"extensionDescription": {
+		"message": "Перенаправляет новую вкладку браузера на пользовательский URL"
+	}
+}

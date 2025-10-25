@@ -1,0 +1,50 @@
+button:
+  clear: Löschen
+  close: Schließen
+  go: LOS
+  next: Weiter
+  previous: Zurück
+  settings: Einstellungen öffnen
+  toggle_dark: Dunkelmodus umschalten
+  toggle_langs: Sprachen ändern
+info:
+  description: Zu einem neuen Tab oder Fenster umleiten
+  explain_settings: Legen Sie hier Ihre erste URL-Umleitung fest
+  random_daily_image: Zufälliges tägliches Bild von {picsumDomain}
+  settings: Einstellungen
+  title: Neuer Tab-Umleitung
+  tool_help: Widget verfügbar
+  tool_help_description: Greifen Sie jederzeit einfach auf Ihre neuen Tab-Optionen über das Widget der Erweiterung zu.
+  tool_help_description_icon: Dieses Symbol sollte oben verfügbar sein, um verfügbare Widgets aufzulisten
+  tool_help_description_pin: Und wenn Sie möchten, heften Sie es an, damit der Zugriff noch einfacher wird
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Projektseite auf GitHub ansehen
+pages:
+  newtab: Neuer Tab
+  popup: Popup
+redirect:
+  clear_history: Verlauf löschen
+  current_url: Aktuelle URL
+  empty_for_default: Standard Neuer Tab
+  enabled: Aktiviert
+  next: Weiter
+  previous: Zurück

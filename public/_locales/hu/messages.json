@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Új lap átirányítás"
+	},
+	"extensionDescription": {
+		"message": "Átirányítja a böngésző új lapját egy egyedi URL-re"
+	}
+}

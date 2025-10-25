@@ -1,0 +1,50 @@
+button:
+  clear: Очистить
+  close: Закрыть
+  go: ПЕРЕЙТИ
+  next: Далее
+  previous: Назад
+  settings: Открыть Настройки
+  toggle_dark: Переключить темный режим
+  toggle_langs: Изменить языки
+info:
+  description: Перенаправить на новую вкладку или окно
+  explain_settings: Установите свой первый URL-редирект здесь
+  random_daily_image: Случайное ежедневное изображение с {picsumDomain}
+  settings: Настройки
+  title: Редирект Новой Вкладки
+  tool_help: Виджет доступен
+  tool_help_description: Легко получайте доступ к опциям новой вкладки в любое время из виджета расширения.
+  tool_help_description_icon: Эта иконка должна быть доступна выше для отображения доступных виджетов
+  tool_help_description_pin: И если хотите, закрепите её для ещё более лёгкого доступа
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Посмотреть страницу проекта на GitHub
+pages:
+  newtab: Новая Вкладка
+  popup: Всплывающее Окно
+redirect:
+  clear_history: Очистить Историю
+  current_url: Текущий URL
+  empty_for_default: Новая Вкладка по Умолчанию
+  enabled: Включено
+  next: Далее
+  previous: Назад

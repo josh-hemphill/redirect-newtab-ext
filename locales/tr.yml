@@ -1,0 +1,50 @@
+button:
+  clear: Temizle
+  close: Kapat
+  go: GİT
+  next: Sonraki
+  previous: Önceki
+  settings: Ayarları Aç
+  toggle_dark: Karanlık modu değiştir
+  toggle_langs: Dilleri değiştir
+info:
+  description: Yeni bir sekmeye veya pencereye yönlendir
+  explain_settings: İlk URL yönlendirmenizi burada ayarlayın
+  random_daily_image: "{picsumDomain}'den rastgele günlük resim"
+  settings: Ayarlar
+  title: Yeni Sekme Yönlendirmesi
+  tool_help: Widget mevcut
+  tool_help_description: Uzantının widget'ından istediğiniz zaman yeni sekme seçeneklerinize kolayca erişin.
+  tool_help_description_icon: Bu simge, mevcut widget'ları listelemek için yukarıda mevcut olmalıdır
+  tool_help_description_pin: Ve isterseniz, daha kolay erişim için sabitleyin
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: GitHub'da proje sayfasını görüntüle
+pages:
+  newtab: Yeni Sekme
+  popup: Popup
+redirect:
+  clear_history: Geçmişi Temizle
+  current_url: Mevcut URL
+  empty_for_default: Varsayılan Yeni Sekme
+  enabled: Etkin
+  next: Sonraki
+  previous: Önceki

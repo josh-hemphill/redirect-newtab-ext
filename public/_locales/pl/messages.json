@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Przekierowanie Nowej Karty"
+	},
+	"extensionDescription": {
+		"message": "Przekierowuje nową kartę przeglądarki na niestandardowy URL"
+	}
+}

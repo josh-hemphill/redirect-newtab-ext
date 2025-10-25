@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "New Tab Redirect"
+	},
+	"extensionDescription": {
+		"message": "Redirect the browser's new tab to a custom URL"
+	}
+}

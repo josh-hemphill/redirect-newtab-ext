@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Neuer Tab-Umleitung"
+	},
+	"extensionDescription": {
+		"message": "Leitet den neuen Tab des Browsers zu einer benutzerdefinierten URL um"
+	}
+}

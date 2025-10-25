@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Omdirigering av ny flik"
+	},
+	"extensionDescription": {
+		"message": "Omdirigerar webbläsarens nya flik till en anpassad URL"
+	}
+}

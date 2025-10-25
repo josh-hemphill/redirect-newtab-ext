@@ -1,0 +1,51 @@
+button:
+  clear: Clear
+  close: Close
+  go: GO
+  next: Next
+  previous: Previous
+  settings: Open Settings
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+info:
+  description: Redirect to a new tab or window
+  explain_settings: Set your first URL redirect here
+  random_daily_image: Random Daily Image from {picsumDomain}
+  random_daily_image_author: 'Original picture author: {author}'
+  settings: Settings
+  title: New Tab Redirect
+  tool_help: Widget available
+  tool_help_description: Easily access your new tab options at any time from the extenion's widget.
+  tool_help_description_icon: This icon should be available above to list available widgets
+  tool_help_description_pin: And if you want, pin it so it's even easier to access
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: View the project page on GitHub
+pages:
+  newtab: New Tab
+  popup: Popup
+redirect:
+  clear_history: Clear History
+  current_url: Current URL
+  empty_for_default: Default New Tab
+  enabled: Enabled
+  next: Next
+  previous: Previous

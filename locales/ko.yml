@@ -1,0 +1,50 @@
+button:
+  clear: 지우기
+  close: 닫기
+  go: 이동
+  next: 다음
+  previous: 이전
+  settings: 설정 열기
+  toggle_dark: 다크모드 토글
+  toggle_langs: 언어 변경
+info:
+  description: 새 탭 또는 창으로 리디렉션
+  explain_settings: 첫 번째 URL 리디렉션을 여기에 설정하세요
+  random_daily_image: '{picsumDomain}의 랜덤 일일 이미지'
+  settings: 설정
+  title: 새 탭 리디렉션
+  tool_help: 위젯 사용 가능
+  tool_help_description: 확장 프로그램의 위젯에서 언제든지 새 탭 옵션에 쉽게 액세스할 수 있습니다.
+  tool_help_description_icon: 이 아이콘은 사용 가능한 위젯을 나열하기 위해 위에서 사용할 수 있어야 합니다
+  tool_help_description_pin: 원한다면 고정하여 더 쉽게 액세스할 수 있습니다
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: GitHub에서 프로젝트 페이지 보기
+pages:
+  newtab: 새 탭
+  popup: 팝업
+redirect:
+  clear_history: 기록 지우기
+  current_url: 현재 URL
+  empty_for_default: 기본 새 탭
+  enabled: 활성화됨
+  next: 다음
+  previous: 이전

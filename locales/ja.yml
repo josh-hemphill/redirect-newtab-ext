@@ -1,0 +1,50 @@
+button:
+  clear: クリア
+  close: 閉じる
+  go: 実行
+  next: 次へ
+  previous: 前へ
+  settings: 設定を開く
+  toggle_dark: ダークモード切り替え
+  toggle_langs: 言語を変更
+info:
+  description: 新しいタブまたはウィンドウにリダイレクト
+  explain_settings: 最初のURLリダイレクトをここで設定してください
+  random_daily_image: '{picsumDomain}からのランダムな日次画像'
+  settings: 設定
+  title: 新しいタブリダイレクト
+  tool_help: ウィジェット利用可能
+  tool_help_description: 拡張機能のウィジェットからいつでも新しいタブオプションに簡単にアクセスできます。
+  tool_help_description_icon: このアイコンは上記で利用可能なウィジェットをリストするために利用可能である必要があります
+  tool_help_description_pin: 必要に応じて、ピン留めしてより簡単にアクセスできるようにしてください
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: GitHubでプロジェクトページを表示
+pages:
+  newtab: 新しいタブ
+  popup: ポップアップ
+redirect:
+  clear_history: 履歴をクリア
+  current_url: 現在のURL
+  empty_for_default: デフォルトの新しいタブ
+  enabled: 有効
+  next: 次へ
+  previous: 前へ

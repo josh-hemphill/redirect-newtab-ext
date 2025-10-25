@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "新标签页重定向"
+	},
+	"extensionDescription": {
+		"message": "将浏览器的新标签页重定向到自定义URL"
+	}
+}

@@ -1,0 +1,50 @@
+button:
+  clear: مسح
+  close: إغلاق
+  go: اذهب
+  next: التالي
+  previous: السابق
+  settings: فاش الإعدادات
+  toggle_dark: تبديل الوضع المظلم
+  toggle_langs: تغيير اللغات
+info:
+  description: إعادة توجيه إلى علامة تبويب جديدة أو نافذة
+  explain_settings: اضبط إعادة توجيه الرابط الأول هنا
+  random_daily_image: صورة يومية عشوائية من {picsumDomain}
+  settings: الإعدادات
+  title: إعادة توجيه علامة التبويب الجديدة
+  tool_help: الأداة متاحة
+  tool_help_description: يمكنك الوصول بسهولة إلى خيارات علامة التبويب الجديدة في أي وقت من أداة الإضافة.
+  tool_help_description_icon: يجب أن تكون هذه الأيقونة متاحة أعلاه لإدراج الأدوات المتاحة
+  tool_help_description_pin: وإذا أردت، يمكنك تثبيتها لتسهيل الوصول إليها
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: عرض صفحة المشروع على GitHub
+pages:
+  newtab: علامة تبويب جديدة
+  popup: نافذة منبثقة
+redirect:
+  clear_history: مسح السجل
+  current_url: الرابط الحالي
+  empty_for_default: علامة التبويب الجديدة الافتراضية
+  enabled: مفعل
+  next: التالي
+  previous: السابق

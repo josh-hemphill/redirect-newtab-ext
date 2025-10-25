@@ -1,0 +1,50 @@
+button:
+  clear: Очистити
+  close: Закрити
+  go: ПЕРЕЙТИ
+  next: Далі
+  previous: Назад
+  settings: Відкрити Налаштування
+  toggle_dark: Переключити темний режим
+  toggle_langs: Змінити мови
+info:
+  description: Перенаправити на нову вкладку або вікно
+  explain_settings: Встановіть свій перший URL-редирект тут
+  random_daily_image: Випадкове щоденне зображення з {picsumDomain}
+  settings: Налаштування
+  title: Редирект Нової Вкладки
+  tool_help: Віджет доступний
+  tool_help_description: Легко отримуйте доступ до опцій нової вкладки в будь-який час з віджета розширення.
+  tool_help_description_icon: Ця іконка повинна бути доступна вище для відображення доступних віджетів
+  tool_help_description_pin: І якщо хочете, закріпіть її для ще легшого доступу
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Переглянути сторінку проекту на GitHub
+pages:
+  newtab: Нова Вкладка
+  popup: Спливаюче Вікно
+redirect:
+  clear_history: Очистити Історію
+  current_url: Поточний URL
+  empty_for_default: Нова Вкладка за Замовчуванням
+  enabled: Увімкнено
+  next: Далі
+  previous: Назад

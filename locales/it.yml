@@ -1,0 +1,50 @@
+button:
+  clear: Cancella
+  close: Chiudi
+  go: VAI
+  next: Successivo
+  previous: Precedente
+  settings: Apri Impostazioni
+  toggle_dark: Attiva/disattiva modalità scura
+  toggle_langs: Cambia lingue
+info:
+  description: Reindirizza a una nuova scheda o finestra
+  explain_settings: Imposta qui il tuo primo reindirizzamento URL
+  random_daily_image: Immagine giornaliera casuale da {picsumDomain}
+  settings: Impostazioni
+  title: Reindirizzamento Nuova Scheda
+  tool_help: Widget disponibile
+  tool_help_description: Accedi facilmente alle tue opzioni di nuova scheda in qualsiasi momento dal widget dell'estensione.
+  tool_help_description_icon: Questa icona dovrebbe essere disponibile sopra per elencare i widget disponibili
+  tool_help_description_pin: E se vuoi, appuntala per un accesso ancora più facile
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Visualizza la pagina del progetto su GitHub
+pages:
+  newtab: Nuova Scheda
+  popup: Popup
+redirect:
+  clear_history: Cancella Cronologia
+  current_url: URL Corrente
+  empty_for_default: Nuova Scheda Predefinita
+  enabled: Abilitato
+  next: Successivo
+  previous: Precedente

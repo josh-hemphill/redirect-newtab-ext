@@ -1,0 +1,50 @@
+button:
+  clear: Hapus
+  close: Tutup
+  go: LANJUT
+  next: Selanjutnya
+  previous: Sebelumnya
+  settings: Buka Pengaturan
+  toggle_dark: Beralih mode gelap
+  toggle_langs: Ubah bahasa
+info:
+  description: Alihkan ke tab atau jendela baru
+  explain_settings: Atur pengalihan URL pertama Anda di sini
+  random_daily_image: Gambar harian acak dari {picsumDomain}
+  settings: Pengaturan
+  title: Pengalihan Tab Baru
+  tool_help: Widget tersedia
+  tool_help_description: Akses dengan mudah opsi tab baru Anda kapan saja dari widget ekstensi.
+  tool_help_description_icon: Ikon ini seharusnya tersedia di atas untuk mencantumkan widget yang tersedia
+  tool_help_description_pin: Dan jika Anda mau, sematkan agar lebih mudah diakses
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Lihat halaman proyek di GitHub
+pages:
+  newtab: Tab Baru
+  popup: Popup
+redirect:
+  clear_history: Hapus Riwayat
+  current_url: URL Saat Ini
+  empty_for_default: Tab Baru Default
+  enabled: Diaktifkan
+  next: Selanjutnya
+  previous: Sebelumnya

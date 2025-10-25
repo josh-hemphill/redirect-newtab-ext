@@ -1,0 +1,8 @@
+{
+	"extensionName": {
+		"message": "Редирект Нової Вкладки"
+	},
+	"extensionDescription": {
+		"message": "Перенаправляє нову вкладку браузера на користувацький URL"
+	}
+}

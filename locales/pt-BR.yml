@@ -1,0 +1,50 @@
+button:
+  clear: Limpar
+  close: Fechar
+  go: IR
+  next: Próximo
+  previous: Anterior
+  settings: Abrir Configurações
+  toggle_dark: Alternar modo escuro
+  toggle_langs: Mudar idiomas
+info:
+  description: Redirecionar para uma nova aba ou janela
+  explain_settings: Defina seu primeiro redirecionamento de URL aqui
+  random_daily_image: Imagem diária aleatória de {picsumDomain}
+  settings: Configurações
+  title: Redirecionamento de Nova Aba
+  tool_help: Widget disponível
+  tool_help_description: Acesse facilmente suas opções de nova aba a qualquer momento do widget da extensão.
+  tool_help_description_icon: Este ícone deve estar disponível acima para listar widgets disponíveis
+  tool_help_description_pin: E se quiser, fixe-o para acesso ainda mais fácil
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Ver a página do projeto no GitHub
+pages:
+  newtab: Nova Aba
+  popup: Popup
+redirect:
+  clear_history: Limpar Histórico
+  current_url: URL Atual
+  empty_for_default: Nova Aba Padrão
+  enabled: Habilitado
+  next: Próximo
+  previous: Anterior

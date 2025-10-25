@@ -1,0 +1,50 @@
+button:
+  clear: Rensa
+  close: Stäng
+  go: KÖR
+  next: Nästa
+  previous: Föregående
+  settings: Öppna Inställningar
+  toggle_dark: Växla mörkt läge
+  toggle_langs: Byta språk
+info:
+  description: Omdirigera till en ny flik eller ett nytt fönster
+  explain_settings: Ställ in din första URL-omdirigering här
+  random_daily_image: Slumpmässig daglig bild från {picsumDomain}
+  settings: Inställningar
+  title: Omdirigering av ny flik
+  tool_help: Widget tillgänglig
+  tool_help_description: Få enkelt tillgång till dina nya flik-alternativ när som helst från tilläggets widget.
+  tool_help_description_icon: Denna ikon bör vara tillgänglig ovan för att lista tillgängliga widgets
+  tool_help_description_pin: Och om du vill, fäst den så att den är ännu lättare att komma åt
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Visa projektsidan på GitHub
+pages:
+  newtab: Ny flik
+  popup: Popup
+redirect:
+  clear_history: Rensa historik
+  current_url: Aktuell URL
+  empty_for_default: Standard ny flik
+  enabled: Aktiverad
+  next: Nästa
+  previous: Föregående

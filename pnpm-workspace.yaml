@@ -1,0 +1,89 @@
+packages: []
+
+overrides:
+  vite: catalog:build
+  vue-tsc: catalog:dev
+
+catalogs:
+  build:
+    '@crxjs/vite-plugin': ^2.2.1
+    '@intlify/unplugin-vue-i18n': ^11.0.1
+    '@vitejs/plugin-vue': ^6.0.1
+    beasties: ^0.3.5
+    rollup: ^4.52.5
+    sass-embedded: ^1.93.2
+    unplugin-auto-import: ^20.2.0
+    unplugin-fonts: ^1.4.0
+    unplugin-vue-components: ^30.0.0
+    unplugin-vue-macros: ^2.14.5
+    unplugin-vue-markdown: ^29.2.0
+    unplugin-vue-router: ^0.16.0
+    vite: npm:rolldown-vite@^7.1.19
+    vite-bundle-visualizer: ^1.2.1
+    vite-plugin-inspect: ^11.3.3
+    vite-plugin-vue-devtools: ^8.0.3
+    vite-plugin-vuetify: ^2.1.2
+    vite-ssg: ^28.2.2
+    vue-macros: 3.1.1
+  dev:
+    '@antfu/eslint-config': ^6.0.0
+    '@vue-macros/volar': 3.1.1
+    '@vue/test-utils': ^2.4.6
+    cross-env: ^10.1.0
+    cypress: ^15.5.0
+    cypress-vite: ^1.8.0
+    eslint: ^9.38.0
+    eslint-plugin-cypress: ^5.2.0
+    eslint-plugin-format: ^1.0.2
+    eslint-plugin-vuejs-accessibility: ^2.4.1
+    fs-extra: ^11.3.2
+    globals: ^16.4.0
+    https-localhost: ^4.7.1
+    tsx: ^4.20.6
+    typescript: ^5.9.3
+    vitest: ^4.0.1
+    vue-tsc: 3.1.1
+    zx: ^8.8.5
+  frontend:
+    '@mdi/js': ^7.4.47
+    '@unhead/vue': ^2.0.19
+    '@vueuse/core': ^14.0.0
+    nprogress: ^0.2.0
+    pinia: ^3.0.3
+    vue: ^3.5.22
+    vue-concurrency: ^5.0.3
+    vue-i18n: ^11.1.12
+    vue-router: ^4.6.3
+    vuetify: ^3.10.7
+  types:
+    '@types/chrome': ^0.1.24
+    '@types/fs-extra': latest
+    '@types/node': ^24.9.1
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+
+onlyBuiltDependencies:
+  - cypress
+  - esbuild
+  - oxc-resolver
+  - unrs-resolver
+
+packageExtensions:
+  '@crxjs/vite-plugin':
+    peerDependencies:
+      vite: '*'
+  '@intlify/unplugin-vue-i18n':
+    dependencies:
+      vite: npm:rolldown-vite@^7.1.19
+    peerDependencies:
+      vite: '*'
+  zx:
+    dependencies:
+      '@types/fs-extra': latest
+      fs-extra: latest
+      minimist: latest
+
+peerDependencyRules:
+  allowAny:
+    - vite

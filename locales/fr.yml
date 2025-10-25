@@ -1,0 +1,50 @@
+button:
+  clear: Effacer
+  close: Fermer
+  go: ALLER
+  next: Suivant
+  previous: Précédent
+  settings: Ouvrir les Paramètres
+  toggle_dark: Basculer le mode sombre
+  toggle_langs: Changer de langues
+info:
+  description: Rediriger vers un nouvel onglet ou une nouvelle fenêtre
+  explain_settings: Configurez votre première redirection d'URL ici
+  random_daily_image: Image quotidienne aléatoire de {picsumDomain}
+  settings: Paramètres
+  title: Redirection Nouvel Onglet
+  tool_help: Widget disponible
+  tool_help_description: Accédez facilement à vos options de nouvel onglet à tout moment depuis le widget de l'extension.
+  tool_help_description_icon: Cette icône devrait être disponible ci-dessus pour lister les widgets disponibles
+  tool_help_description_pin: Et si vous le souhaitez, épinglez-la pour un accès encore plus facile
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Voir la page du projet sur GitHub
+pages:
+  newtab: Nouvel Onglet
+  popup: Popup
+redirect:
+  clear_history: Effacer l'Historique
+  current_url: URL Actuelle
+  empty_for_default: Nouvel Onglet par Défaut
+  enabled: Activé
+  next: Suivant
+  previous: Précédent

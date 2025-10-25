@@ -1,0 +1,50 @@
+button:
+  clear: Wyczyść
+  close: Zamknij
+  go: IDŹ
+  next: Następny
+  previous: Poprzedni
+  settings: Otwórz Ustawienia
+  toggle_dark: Przełącz tryb ciemny
+  toggle_langs: Zmień języki
+info:
+  description: Przekieruj do nowej karty lub okna
+  explain_settings: Ustaw tutaj swoje pierwsze przekierowanie URL
+  random_daily_image: Losowe codzienne zdjęcie z {picsumDomain}
+  settings: Ustawienia
+  title: Przekierowanie Nowej Karty
+  tool_help: Widget dostępny
+  tool_help_description: Łatwo uzyskaj dostęp do opcji nowej karty w dowolnym momencie z widgetu rozszerzenia.
+  tool_help_description_icon: Ta ikona powinna być dostępna powyżej, aby wyświetlić dostępne widgety
+  tool_help_description_pin: A jeśli chcesz, przypnij ją, aby jeszcze łatwiej uzyskać dostęp
+languageNames:
+  ar: العربية
+  de: Deutsch
+  en: English
+  es: Español
+  fr: Français
+  hu: Magyar
+  id: Bahasa Indonesia
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pl: Polski
+  pt-BR: Português (BR)
+  ru: Русский
+  sv: Svenska
+  tr: Türkçe
+  uk: Українська
+  vi: Tiếng Việt
+  zh-CN: 简体中文
+link:
+  github: Zobacz stronę projektu na GitHub
+pages:
+  newtab: Nowa Karta
+  popup: Popup
+redirect:
+  clear_history: Wyczyść Historię
+  current_url: Bieżący URL
+  empty_for_default: Domyślna Nowa Karta
+  enabled: Włączone
+  next: Następny
+  previous: Poprzedni
