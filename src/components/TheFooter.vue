@@ -11,7 +11,7 @@ const { t } = useI18n();
 				icon
 				class="mx-3 my-1"
 				rel="noreferrer"
-				href="https://github.com/josh-hemphill/newtab-redirect-ext"
+				href="https://github.com/josh-hemphill/redirect-newtab-ext"
 				target="_blank"
 				:title="t('link.github')"
 				:aria-label="t('link.github')"
