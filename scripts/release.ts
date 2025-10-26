@@ -12,14 +12,19 @@ try {
 	const result = await versionBump({
 		files: packages,
 		commit: 'ci: release v%s',
-		push: false,
+		push: true,
 		tag: true,
 		all: true,
 	});
 
-	await $`tsx scripts/changelog.ts --recreateChangelog`;
-	await $`git add CHANGELOG.md`;
-	await $`git commit -m "ci: update changelog"`;
+	await $({ stdio: 'inherit' })`tsx scripts/changelog.ts --recreateChangelog`;
+	const addResult = await $`git add CHANGELOG.md`.nothrow();
+	if (addResult.exitCode === 0) {
+		await $`git commit -m "ci: update changelog"`;
+	}
+	else {
+		console.log('CHANGELOG.md is already up to date');
+	}
 
 	const latestTagExists = await $`git tag -l latest`.nothrow();
 	if (latestTagExists.exitCode === 1) {
