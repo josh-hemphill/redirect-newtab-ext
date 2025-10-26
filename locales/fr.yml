@@ -11,6 +11,7 @@ info:
   description: Rediriger vers un nouvel onglet ou une nouvelle fenêtre
   explain_settings: Configurez votre première redirection d'URL ici
   random_daily_image: Image quotidienne aléatoire de {picsumDomain}
+  random_daily_image_author: "Auteur de l'image originale: {author}"
   settings: Paramètres
   title: Redirection Nouvel Onglet
   tool_help: Widget disponible
@@ -42,9 +43,15 @@ pages:
   newtab: Nouvel Onglet
   popup: Popup
 redirect:
+  add_new_link: Cliquez pour ajouter le nouveau redirectionnement/URL
+  clear_all: Effacer tous les liens
   clear_history: Effacer l'Historique
   current_url: URL Actuelle
+  delete: Supprimer ce redirectionnement/URL
+  edit: Modifier ce redirectionnement/URL
   empty_for_default: Nouvel Onglet par Défaut
   enabled: Activé
+  new_link: Ajouter un nouveau lien/URL
   next: Suivant
   previous: Précédent
+  select: Sélectionner celui-ci comme redirectionnement actuel/actif

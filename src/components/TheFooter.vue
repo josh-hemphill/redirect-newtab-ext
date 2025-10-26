@@ -1,9 +1,13 @@
 <script setup lang="ts">
 const { t } = useI18n();
+const { smAndDown } = useDisplay();
 </script>
 
 <template>
-	<v-footer class="text-xl justify-center">
+	<v-footer
+		class="text-xl justify-center"
+		:style="{ 'max-height': smAndDown ? '3.5rem' : undefined }"
+	>
 		<div class="d-flex w-100 align-center px-4">
 			<v-btn
 				density="compact"

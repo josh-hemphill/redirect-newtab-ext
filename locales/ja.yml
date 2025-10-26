@@ -11,6 +11,7 @@ info:
   description: 新しいタブまたはウィンドウにリダイレクト
   explain_settings: 最初のURLリダイレクトをここで設定してください
   random_daily_image: '{picsumDomain}からのランダムな日次画像'
+  random_daily_image_author: '元の画像の作成者: {author}'
   settings: 設定
   title: 新しいタブリダイレクト
   tool_help: ウィジェット利用可能
@@ -42,9 +43,15 @@ pages:
   newtab: 新しいタブ
   popup: ポップアップ
 redirect:
+  add_new_link: クリックして新しいリダイレクト/URLを追加
+  clear_all: すべてのリンクをクリア
   clear_history: 履歴をクリア
   current_url: 現在のURL
+  delete: このリダイレクト/URLを削除
+  edit: このリダイレクト/URLを編集
   empty_for_default: デフォルトの新しいタブ
   enabled: 有効
+  new_link: 新しいリンク/URLを追加
   next: 次へ
   previous: 前へ
+  select: これを現在/アクティブなリダイレクトとして選択

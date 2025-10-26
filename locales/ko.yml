@@ -11,6 +11,7 @@ info:
   description: 새 탭 또는 창으로 리디렉션
   explain_settings: 첫 번째 URL 리디렉션을 여기에 설정하세요
   random_daily_image: '{picsumDomain}의 랜덤 일일 이미지'
+  random_daily_image_author: '원본 사진 저자: {author}'
   settings: 설정
   title: 새 탭 리디렉션
   tool_help: 위젯 사용 가능
@@ -42,9 +43,15 @@ pages:
   newtab: 새 탭
   popup: 팝업
 redirect:
+  add_new_link: 클릭하여 새 리디렉션/URL 추가
+  clear_all: 모든 링크 지우기
   clear_history: 기록 지우기
   current_url: 현재 URL
+  delete: 이 리디렉션/URL 삭제
+  edit: 이 리디렉션/URL 편집
   empty_for_default: 기본 새 탭
   enabled: 활성화됨
+  new_link: 새 링크/URL 추가
   next: 다음
   previous: 이전
+  select: 이것을 현재/활성 리디렉션으로 선택

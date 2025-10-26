@@ -11,6 +11,7 @@ info:
   description: Redirecionar para uma nova aba ou janela
   explain_settings: Defina seu primeiro redirecionamento de URL aqui
   random_daily_image: Imagem diária aleatória de {picsumDomain}
+  random_daily_image_author: 'Autor da imagem original: {author}'
   settings: Configurações
   title: Redirecionamento de Nova Aba
   tool_help: Widget disponível
@@ -42,9 +43,15 @@ pages:
   newtab: Nova Aba
   popup: Popup
 redirect:
+  add_new_link: Clique para adicionar o novo redirecionamento/URL
+  clear_all: Limpar todos os links
   clear_history: Limpar Histórico
   current_url: URL Atual
+  delete: Excluir este redirecionamento/URL
+  edit: Editar este redirecionamento/URL
   empty_for_default: Nova Aba Padrão
   enabled: Habilitado
+  new_link: Adicionar um novo link/URL
   next: Próximo
   previous: Anterior
+  select: Selecionar este como o redirecionamento atual/ativo

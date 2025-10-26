@@ -11,6 +11,7 @@ info:
   description: Chuyển hướng đến tab hoặc cửa sổ mới
   explain_settings: Đặt chuyển hướng URL đầu tiên của bạn ở đây
   random_daily_image: Hình ảnh hàng ngày ngẫu nhiên từ {picsumDomain}
+  random_daily_image_author: 'Tác giả hình ảnh gốc: {author}'
   settings: Cài đặt
   title: Chuyển hướng Tab Mới
   tool_help: Widget có sẵn
@@ -42,9 +43,15 @@ pages:
   newtab: Tab Mới
   popup: Popup
 redirect:
+  add_new_link: Nhấp để thêm chuyển hướng/URL mới
+  clear_all: Xóa tất cả các liên kết
   clear_history: Xóa Lịch sử
   current_url: URL Hiện tại
+  delete: Xóa chuyển hướng/URL này
+  edit: Chỉnh sửa chuyển hướng/URL này
   empty_for_default: Tab Mới Mặc định
   enabled: Đã bật
+  new_link: Thêm liên kết/URL mới
   next: Tiếp theo
   previous: Trước đó
+  select: Chọn cái này làm chuyển hướng hiện tại/hoạt động

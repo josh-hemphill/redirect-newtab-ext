@@ -11,6 +11,7 @@ info:
   description: إعادة توجيه إلى علامة تبويب جديدة أو نافذة
   explain_settings: اضبط إعادة توجيه الرابط الأول هنا
   random_daily_image: صورة يومية عشوائية من {picsumDomain}
+  random_daily_image_author: 'مؤلف الصورة الأصلي: {author}'
   settings: الإعدادات
   title: إعادة توجيه علامة التبويب الجديدة
   tool_help: الأداة متاحة
@@ -42,9 +43,15 @@ pages:
   newtab: علامة تبويب جديدة
   popup: نافذة منبثقة
 redirect:
+  add_new_link: انقر لإضافة إعادة التوجيه/URL الجديدة
+  clear_all: مسح كل الروابط
   clear_history: مسح السجل
   current_url: الرابط الحالي
+  delete: حذف هذا التوجيه/URL
+  edit: تعديل هذا التوجيه/URL
   empty_for_default: علامة التبويب الجديدة الافتراضية
   enabled: مفعل
+  new_link: إضافة رابط/URL جديد
   next: التالي
   previous: السابق
+  select: حدد هذا باعتباره إعادة التوجيه الحالية/النشطة

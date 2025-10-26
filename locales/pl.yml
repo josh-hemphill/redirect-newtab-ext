@@ -11,6 +11,7 @@ info:
   description: Przekieruj do nowej karty lub okna
   explain_settings: Ustaw tutaj swoje pierwsze przekierowanie URL
   random_daily_image: Losowe codzienne zdjęcie z {picsumDomain}
+  random_daily_image_author: 'Autor oryginalnego zdjęcia: {author}'
   settings: Ustawienia
   title: Przekierowanie Nowej Karty
   tool_help: Widget dostępny
@@ -42,9 +43,15 @@ pages:
   newtab: Nowa Karta
   popup: Popup
 redirect:
+  add_new_link: Kliknij, aby dodać nowe przekierowanie/URL
+  clear_all: Wyczyść wszystkie linki
   clear_history: Wyczyść Historię
   current_url: Bieżący URL
+  delete: Usuń to przekierowanie/URL
+  edit: Edytuj to przekierowanie/URL
   empty_for_default: Domyślna Nowa Karta
   enabled: Włączone
+  new_link: Dodaj nowy link/URL
   next: Następny
   previous: Poprzedni
+  select: Wybierz to jako bieżące/aktywne przekierowanie

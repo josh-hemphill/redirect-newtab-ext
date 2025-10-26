@@ -11,6 +11,7 @@ info:
   description: Omdirigera till en ny flik eller ett nytt fönster
   explain_settings: Ställ in din första URL-omdirigering här
   random_daily_image: Slumpmässig daglig bild från {picsumDomain}
+  random_daily_image_author: 'Originalbildens författare: {author}'
   settings: Inställningar
   title: Omdirigering av ny flik
   tool_help: Widget tillgänglig
@@ -42,9 +43,15 @@ pages:
   newtab: Ny flik
   popup: Popup
 redirect:
+  add_new_link: Klicka för att lägga till den nya omdirigeringen/URL
+  clear_all: Rensa alla länkar
   clear_history: Rensa historik
   current_url: Aktuell URL
+  delete: Ta bort denna omdirigering/URL
+  edit: Redigera denna omdirigering/URL
   empty_for_default: Standard ny flik
   enabled: Aktiverad
+  new_link: Lägg till en ny länk/URL
   next: Nästa
   previous: Föregående
+  select: Välj detta som den nuvarande/aktiva omdirigeringen

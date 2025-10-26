@@ -11,6 +11,7 @@ info:
   description: Yeni bir sekmeye veya pencereye yönlendir
   explain_settings: İlk URL yönlendirmenizi burada ayarlayın
   random_daily_image: "{picsumDomain}'den rastgele günlük resim"
+  random_daily_image_author: 'Orijinal resmin yazarı: {author}'
   settings: Ayarlar
   title: Yeni Sekme Yönlendirmesi
   tool_help: Widget mevcut
@@ -42,9 +43,15 @@ pages:
   newtab: Yeni Sekme
   popup: Popup
 redirect:
+  add_new_link: Yeni yönlendirme/URL'yi eklemek için tıklayın
+  clear_all: Tüm bağlantıları temizle
   clear_history: Geçmişi Temizle
   current_url: Mevcut URL
+  delete: Bu yönlendirmeyi/URL'yi sil
+  edit: Bu yönlendirmeyi/URL'yi düzenle
   empty_for_default: Varsayılan Yeni Sekme
   enabled: Etkin
+  new_link: Yeni bir bağlantı/URL ekle
   next: Sonraki
   previous: Önceki
+  select: Bunu mevcut/aktif yönlendirme olarak seç

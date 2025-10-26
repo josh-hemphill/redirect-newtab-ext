@@ -68,12 +68,20 @@ export const useSettingsStore = defineStore('settings', () => {
 		settings.redirectEnabled = true;
 	}
 
+	function deleteHistory(index: number) {
+		settings.redirectHistory.splice(index, 1);
+		if (settings.redirectHistoryIndex >= index) {
+			settings.redirectHistoryIndex--;
+		}
+	}
+
 	return {
 		settings,
 		newHistory,
 		previousHistory,
 		nextHistory,
 		clearHistory,
+		deleteHistory,
 		currentUrl,
 		historyInfo,
 		MAX_HISTORY_SIZE,

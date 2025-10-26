@@ -11,6 +11,7 @@ info:
   description: Zu einem neuen Tab oder Fenster umleiten
   explain_settings: Legen Sie hier Ihre erste URL-Umleitung fest
   random_daily_image: Zufälliges tägliches Bild von {picsumDomain}
+  random_daily_image_author: 'Originalbild-Autor: {author}'
   settings: Einstellungen
   title: Neuer Tab-Umleitung
   tool_help: Widget verfügbar
@@ -42,9 +43,15 @@ pages:
   newtab: Neuer Tab
   popup: Popup
 redirect:
+  add_new_link: Klicken Sie, um die neue Umleitung/URL hinzuzufügen
+  clear_all: Alle Links löschen
   clear_history: Verlauf löschen
   current_url: Aktuelle URL
+  delete: Diese Umleitung/URL löschen
+  edit: Diese Umleitung/URL bearbeiten
   empty_for_default: Standard Neuer Tab
   enabled: Aktiviert
+  new_link: Neuen Link/URL hinzufügen
   next: Weiter
   previous: Zurück
+  select: Dieses als die aktuelle/aktive Umleitung auswählen

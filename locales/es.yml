@@ -11,6 +11,7 @@ info:
   description: Redirigir a una nueva pestaña o ventana
   explain_settings: Configure su primera redirección de URL aquí
   random_daily_image: Imagen diaria aleatoria de {picsumDomain}
+  random_daily_image_author: 'Autor de la imagen original: {author}'
   settings: Configuración
   title: Redirección de Nueva Pestaña
   tool_help: Widget disponible
@@ -42,9 +43,15 @@ pages:
   newtab: Nueva Pestaña
   popup: Popup
 redirect:
+  add_new_link: Haga clic para agregar el nuevo redireccionamiento/URL
+  clear_all: Limpiar todos los enlaces
   clear_history: Limpiar Historial
   current_url: URL Actual
+  delete: Eliminar este redireccionamiento/URL
+  edit: Editar este redireccionamiento/URL
   empty_for_default: Nueva Pestaña por Defecto
   enabled: Habilitado
+  new_link: Agregar un nuevo enlace/URL
   next: Siguiente
   previous: Anterior
+  select: Seleccionar este como el redireccionamiento actual/activo

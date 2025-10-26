@@ -43,9 +43,15 @@ pages:
   newtab: New Tab
   popup: Popup
 redirect:
+  add_new_link: Click to add the new redirect/URL
+  clear_all: Clear all links
   clear_history: Clear History
   current_url: Current URL
+  delete: Delete this redirect/URL
+  edit: Edit this redirect/URL
   empty_for_default: Default New Tab
   enabled: Enabled
+  new_link: Add a new link/URL
   next: Next
   previous: Previous
+  select: Select this as the current/active redirect

@@ -11,6 +11,7 @@ info:
   description: 重定向到新标签页或窗口
   explain_settings: 在此设置您的第一个URL重定向
   random_daily_image: "来自{picsumDomain}的随机每日图片"
+  random_daily_image_author: '原始图片作者: {author}'
   settings: 设置
   title: 新标签页重定向
   tool_help: 小部件可用
@@ -42,9 +43,15 @@ pages:
   newtab: 新标签页
   popup: 弹窗
 redirect:
+  add_new_link: 点击添加新的重定向/URL
+  clear_all: 清除所有链接
   clear_history: 清除历史记录
   current_url: 当前URL
+  delete: 删除此重定向/URL
+  edit: 编辑此重定向/URL
   empty_for_default: 默认新标签页
   enabled: 已启用
+  new_link: 添加新链接/URL
   next: 下一个
   previous: 上一个
+  select: 选择此项作为当前/活动重定向

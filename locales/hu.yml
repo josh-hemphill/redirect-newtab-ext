@@ -11,6 +11,7 @@ info:
   description: Átirányítás új lapra vagy ablakra
   explain_settings: Itt állítsa be az első URL átirányítást
   random_daily_image: Véletlenszerű napi kép a {picsumDomain}-tól
+  random_daily_image_author: 'Eredeti kép szerzője: {author}'
   settings: Beállítások
   title: Új lap átirányítás
   tool_help: Widget elérhető
@@ -44,9 +45,15 @@ pages:
   newtab: Új lap
   popup: Felugró ablak
 redirect:
+  add_new_link: Kattintson az új átirányítás/URL hozzáadásához
+  clear_all: Összes hivatkozás törlése
   clear_history: Előzmények törlése
   current_url: Jelenlegi URL
+  delete: Ennek az átirányításnak/URL-nek a törlése
+  edit: Ennek az átirányításnak/URL-nek a szerkesztése
   empty_for_default: Alapértelmezett új lap
   enabled: Engedélyezve
+  new_link: Új hivatkozás/URL hozzáadása
   next: Következő
   previous: Előző
+  select: Ezt kiválasztja jelenlegi/aktív átirányításként

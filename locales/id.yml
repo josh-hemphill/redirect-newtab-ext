@@ -11,6 +11,7 @@ info:
   description: Alihkan ke tab atau jendela baru
   explain_settings: Atur pengalihan URL pertama Anda di sini
   random_daily_image: Gambar harian acak dari {picsumDomain}
+  random_daily_image_author: 'Pembuat gambar asli: {author}'
   settings: Pengaturan
   title: Pengalihan Tab Baru
   tool_help: Widget tersedia
@@ -42,9 +43,15 @@ pages:
   newtab: Tab Baru
   popup: Popup
 redirect:
+  add_new_link: Klik untuk menambahkan pengalihan/URL baru
+  clear_all: Hapus semua tautan
   clear_history: Hapus Riwayat
   current_url: URL Saat Ini
+  delete: Hapus pengalihan/URL ini
+  edit: Edit pengalihan/URL ini
   empty_for_default: Tab Baru Default
   enabled: Diaktifkan
+  new_link: Tambahkan tautan/URL baru
   next: Selanjutnya
   previous: Sebelumnya
+  select: Pilih ini sebagai pengalihan saat ini/aktif

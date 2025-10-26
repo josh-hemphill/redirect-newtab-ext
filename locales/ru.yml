@@ -11,6 +11,7 @@ info:
   description: Перенаправить на новую вкладку или окно
   explain_settings: Установите свой первый URL-редирект здесь
   random_daily_image: Случайное ежедневное изображение с {picsumDomain}
+  random_daily_image_author: 'Автор оригинального изображения: {author}'
   settings: Настройки
   title: Редирект Новой Вкладки
   tool_help: Виджет доступен
@@ -42,9 +43,15 @@ pages:
   newtab: Новая Вкладка
   popup: Всплывающее Окно
 redirect:
+  add_new_link: Нажмите, чтобы добавить новую переадресацию/URL
+  clear_all: Очистить все ссылки
   clear_history: Очистить Историю
   current_url: Текущий URL
+  delete: Удалить эту переадресацию/URL
+  edit: Редактировать эту переадресацию/URL
   empty_for_default: Новая Вкладка по Умолчанию
   enabled: Включено
+  new_link: Добавить новую ссылку/URL
   next: Далее
   previous: Назад
+  select: Выбрать это как текущую/активную переадресацию

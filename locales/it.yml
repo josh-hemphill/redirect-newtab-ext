@@ -11,6 +11,7 @@ info:
   description: Reindirizza a una nuova scheda o finestra
   explain_settings: Imposta qui il tuo primo reindirizzamento URL
   random_daily_image: Immagine giornaliera casuale da {picsumDomain}
+  random_daily_image_author: "Autore dell'immagine originale: {author}"
   settings: Impostazioni
   title: Reindirizzamento Nuova Scheda
   tool_help: Widget disponibile
@@ -42,9 +43,15 @@ pages:
   newtab: Nuova Scheda
   popup: Popup
 redirect:
+  add_new_link: Clicca per aggiungere il nuovo reindirizzamento/URL
+  clear_all: Cancella tutti i link
   clear_history: Cancella Cronologia
   current_url: URL Corrente
+  delete: Elimina questo reindirizzamento/URL
+  edit: Modifica questo reindirizzamento/URL
   empty_for_default: Nuova Scheda Predefinita
   enabled: Abilitato
+  new_link: Aggiungi un nuovo link/URL
   next: Successivo
   previous: Precedente
+  select: Seleziona questo come reindirizzamento corrente/attivo
