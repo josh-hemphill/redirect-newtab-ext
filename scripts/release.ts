@@ -12,32 +12,23 @@ try {
 	const result = await versionBump({
 		files: packages,
 		commit: 'ci: release v%s',
-		push: true,
+		push: false,
 		tag: true,
 		all: true,
 	});
 
 	await $({ stdio: 'inherit' })`tsx scripts/changelog.ts --recreateChangelog`;
-	const addResult = await $`git add CHANGELOG.md`.nothrow();
-	if (addResult.exitCode === 0) {
-		await $`git commit -m "ci: update changelog"`;
-	}
-	else {
-		console.log('CHANGELOG.md is already up to date');
-	}
 
-	const latestTagExists = await $`git tag -l latest`.nothrow();
-	if (latestTagExists.exitCode === 1) {
-		await $`git tag -d latest`;
-	}
-	await $`git tag latest`;
+	await $`git commit -m "ci: update changelog" CHANGELOG.md`;
 
-	if (result.newVersion.includes('beta') === false) {
+	await $`git tag --force latest`;
+
+	if (!result.newVersion.includes('beta')) {
 		console.log('Pushing to release branch');
 		await $`git update-ref refs/heads/release refs/heads/dev`;
-		await $`git push origin release`;
 	}
-	await $`git push origin dev --tags`;
+	await $`git push origin :latest`.nothrow();
+	await $`git push origin release dev --tags`;
 	console.log('New release is ready, waiting for conformation at https://github.com/josh-hemphill/newtab-redirect-ext/actions');
 }
 catch (err) {

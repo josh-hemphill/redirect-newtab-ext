@@ -25,13 +25,13 @@ async function run() {
 		}
 
 		console.log('Recreating changelog');
-		const tags = await $`git tag --sort=-version:refname -l v*`.nothrow();
-		if (tags.exitCode !== 0) {
+		const tags = await $`git tag --sort=-version:refname -l 'v*'`.nothrow().text();
+		if (!tags.trim().length) {
 			console.error('No tags found');
 			process.exit(1);
 		}
 		let changelog = '';
-		for (const tag of tags.stdout
+		for (const tag of tags
 			.trim()
 			.split('\n')
 			.map((version, i, arr) => ({ version, i, prev: arr[i - 1] }))
