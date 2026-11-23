@@ -68,6 +68,7 @@
 		"fs-extra": "catalog:dev",
 		"globals": "catalog:dev",
 		"https-localhost": "catalog:dev",
+		"jsdom": "29.1.0",
 		"rollup": "catalog:build",
 		"sass-embedded": "catalog:build",
 		"tsx": "catalog:dev",
